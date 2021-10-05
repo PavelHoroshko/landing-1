@@ -1,0 +1,29 @@
+.awesome-item{
+    width: 350px;
+}
+.awesome-img{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #D98943;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+
+}
+.awesome-img-pic{
+        margin: 17px auto 0;
+        display: block;
+    }
+.awesome-item-title{
+        font-size: 20px;
+        color: #333333;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+.awesome-item-text p{
+text-align: center;
+    }
+    .awesome-wrapp{
+        margin-top: 67px;
+        display: flex;
+        justify-content: space-around;
+    }
