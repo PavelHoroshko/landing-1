@@ -1,0 +1,38 @@
+.customers-wrapp{
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-around;
+}
+.customers-discription p{
+    margin: auto;
+    font-weight: 400;
+    text-align: center;
+    font-family: open sans;
+}
+.customers-item{
+    display: block;
+    width: 350px;
+}
+.customers-item-text{
+    border: 20px #E2E2E2;;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Raleway;
+    line-height: 21px;
+    font-weight: 400;
+    padding: 35px 35px;
+}
+.customers-img{
+display: block;
+margin-top: 66px;
+width: 30%;
+height: 70px;
+}
+.name{
+    width: 50%;
+}
+.span{
+    display: block;
+    float: right;
+}

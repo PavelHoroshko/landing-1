@@ -1,6 +1,7 @@
 .pricing-wrapp {
     display: flex;
     justify-content: space-around;
+    margin-top: 67px;
 }
 .pricing-list{
     text-align: center;
@@ -9,17 +10,17 @@
 }
 .pricing-list-item__tarif{
     font-size: 20px;
-    height: 50px;
     color: #FFFFFF;
     background-color: #333333;
     margin-bottom: 2px;
+    line-height: 50px;
 }
 .pricing-list-item__coast{
     font-size: 35px;
-    height: 100px;
     color: #FFFFFF;
     background-color: #333333;
     margin-bottom: 2px;
+    line-height: 100px;
 }
 .pricing-list-item__free{
     font-size: 14px;
@@ -36,8 +37,10 @@
 .pricing-list-item__life{
     background-color: tomato;
 }
-.pricing-discription{
-    width: 400px;
+.pricing-discription p{
     margin: auto;
+    font-weight: 400;
+    text-align: center;
+    font-family: open sans;
   }
 

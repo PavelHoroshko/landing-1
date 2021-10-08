@@ -1,3 +1,4 @@
+@import url("../css/customers.css");
 @import url("../css/fonts.css");
 @import url("../css/awesome.css");
 @import url("../css/pricing.css");
@@ -37,10 +38,10 @@
   margin: 25px auto 30px;
 }
 .awesome-discription{
-  width: 350px;
   margin: auto;
   font-family: open sans;
   font-weight: 400;
+  margin: auto;
 }
 .awesome-discription p{
 text-align: center;
