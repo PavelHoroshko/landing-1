@@ -1,0 +1,29 @@
+.section-bg{
+    background: url('../img/city.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 170px 240px 170px;
+    margin: 50px 0;
+
+}
+.title-axure{
+ color: white; 
+ text-align: center;
+ margin: auto;
+ font-family: Raleway;
+ text-transform: uppercase;
+ width: 450px;
+ font-size: 36px;
+ font-weight: 400; 
+}
+.axure-discription p{
+color: white;
+text-align: center;
+margin: auto;
+font-family: open sans;
+font-weight: 400;
+margin-top: 100px;
+}
+
+

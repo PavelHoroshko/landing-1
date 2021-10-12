@@ -2,6 +2,7 @@
 @import url("../css/fonts.css");
 @import url("../css/awesome.css");
 @import url("../css/pricing.css");
+@import url("../css/bg.css");
 * {
   margin: 0;
   padding: 0;
@@ -41,7 +42,6 @@
   margin: auto;
   font-family: open sans;
   font-weight: 400;
-  margin: auto;
 }
 .awesome-discription p{
 text-align: center;
@@ -50,6 +50,3 @@ text-align: center;
   width: 400px;
   margin: auto;
 }
-  .section2{
-    background-color: rgb(236, 235, 235);
-  }
