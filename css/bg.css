@@ -23,7 +23,19 @@ text-align: center;
 margin: auto;
 font-family: open sans;
 font-weight: 400;
-margin-top: 100px;
+margin-top: 10ss0px;
 }
-
+.axure-link{
+    text-transform: uppercase;
+    border: 1px solid white;
+    display: block;
+    margin: auto;
+    padding: 10px 100px;
+    display: inline-block;
+    color: white;
+}
+.axure{
+    text-align: center;
+    margin-top: 200px;
+}
 

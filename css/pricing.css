@@ -5,8 +5,8 @@
 }
 .pricing-list{
     text-align: center;
-    font-weight: 700px;
     width: 250px;
+    width: 350px;
 }
 .pricing-list-item__tarif{
     font-size: 20px;
@@ -14,6 +14,8 @@
     background-color: #333333;
     margin-bottom: 2px;
     line-height: 50px;
+    font-family: Raleway;
+    line-height: 60px;
 }
 .pricing-list-item__coast{
     font-size: 35px;
@@ -21,26 +23,35 @@
     background-color: #333333;
     margin-bottom: 2px;
     line-height: 100px;
+    font-family: Raleway;
 }
 .pricing-list-item__free{
     font-size: 14px;
     color: #FFFFFF80;
     background-color: #333333;
     margin-bottom: 2px;
+    font-family: Raleway;
+    line-height: 50px;
 }
 .pricing-list-item__space{
     font-size: 14px;
     line-height: 19px;
     background-color: white;
     margin-bottom: 3px;
+    padding: 15px 15px;
+    font-family: Raleway;
+    font-weight: 400;
 }
 .pricing-list-item__life{
     background-color: tomato;
+    line-height: 50px;
 }
 .pricing-discription p{
     margin: auto;
+    font-family: open sans;
     font-weight: 400;
     text-align: center;
-    font-family: open sans;
   }
-
+.section-pricing{
+    background-color: #9a9a9a;
+}
