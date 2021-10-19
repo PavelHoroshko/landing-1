@@ -1,12 +1,17 @@
+.pricing{
+background-color: #F5F5F5;    
+}
 .pricing-wrapp {
     display: flex;
     justify-content: space-around;
     margin-top: 67px;
+    flex-wrap: wrap;
 }
 .pricing-list{
     text-align: center;
     width: 250px;
     width: 350px;
+    margin: 0 15px;
 }
 .pricing-list-item__tarif{
     font-size: 20px;
@@ -55,3 +60,7 @@
 .section-pricing{
     background-color: #9a9a9a;
 }
+.pricing-discription{
+    width: 600px;
+    margin: auto;
+  }

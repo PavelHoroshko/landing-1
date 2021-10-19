@@ -1,5 +1,6 @@
 .awesome-item{
     width: 350px;
+    margin: 0 15px;
 }
 .awesome-img{
     width: 70px;
@@ -18,12 +19,17 @@
         color: #333333;
         text-align: center;
         margin-bottom: 16px;
+        font-family: open sans;
+        font-weight: 700;
     }
 .awesome-item-text p{
 text-align: center;
+font-family: Raleway;
+font-weight: 400;
     }
     .awesome-wrapp{
         margin-top: 67px;
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
     }

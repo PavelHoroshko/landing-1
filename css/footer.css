@@ -1,0 +1,80 @@
+.section-footer{
+    padding: 50px 0;
+    background-color: #000000;
+}
+.section-logo{
+text-align: center;
+font-size: 60px;
+color: silver;
+margin-top: 20px;
+}
+.fa-facebook-f{
+    margin: 0 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.fa-twitter{
+    margin: 0 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.fa-linkedin{
+    margin: 0 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.fa-pinterest{
+    margin: 0 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.fa-instagram{
+    margin: 0 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.fa-github{
+    margin: 0 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.fa-rss{
+    margin: 0 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.text-logo{
+    color: silver;
+    font-family: open sans;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 40px;
+}
+.fa-facebook-f:hover{
+color: blue;
+font-size: 70px;
+}
+.fa-twitter:hover{
+color: cornflowerblue;
+font-size: 70px;
+}
+.fa-linkedin:hover{
+    color: cornflowerblue;
+    font-size: 70px;
+}
+.fa-pinterest:hover{
+    color: rgb(230, 0, 0);
+    font-size: 70px;
+}
+.fa-instagram:hover{
+    color: #c72020a8;
+    font-size: 70px;
+}
+.fa-github:hover{
+    color: #da8360;
+    font-size: 70px;
+}
+.fa-rss:hover{
+    color: orangered;
+    font-size: 70px;
+}

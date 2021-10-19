@@ -1,21 +1,30 @@
 .section-bg{
-    background: url('../img/city.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 50px 170px 240px 170px;
-    margin: 50px 0;
-
+background: url('../img/city.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+padding: 50px 0;
+position: relative;
+}
+.section-bg::after{
+content: "";
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+display: block;
+position: absolute;
+top: 0;
+left: 0;
 }
 .title-axure{
- color: white; 
- text-align: center;
- margin: auto;
- font-family: Raleway;
- text-transform: uppercase;
- width: 450px;
- font-size: 36px;
- font-weight: 400; 
+color: white; 
+text-align: center;
+margin: auto;
+font-family: Raleway;
+text-transform: uppercase;
+width: 450px;
+font-size: 36px;
+font-weight: 400; 
 }
 .axure-discription p{
 color: white;
@@ -26,16 +35,16 @@ font-weight: 400;
 margin-top: 10ss0px;
 }
 .axure-link{
-    text-transform: uppercase;
-    border: 1px solid white;
-    display: block;
-    margin: auto;
-    padding: 10px 100px;
-    display: inline-block;
-    color: white;
+border: 1px solid white;
+display: block;
+margin: auto;
+padding: 10px 100px;
+display: inline-block;
+color: white;
+font-family: open sans;
 }
 .axure{
-    text-align: center;
-    margin-top: 200px;
+text-align: center;
+margin-top: 40px;
 }
 

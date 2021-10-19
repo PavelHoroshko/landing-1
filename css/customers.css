@@ -1,7 +1,8 @@
 .customers-wrapp{
     margin-top: 67px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .customers-discription p{
     margin: auto;
@@ -12,6 +13,7 @@
 .customers-item{
     display: block;
     width: 350px;
+    margin: 0 15px;
 }
 .customers-item-text{
     border: 20px #E2E2E2;;
@@ -23,12 +25,27 @@
     font-weight: 400;
     padding: 35px 35px;
 }
-.customers-img{
-display: block;
-margin-top: 66px;
-width: 30%;
-height: 70px;
+.customers-item-text::after{
+    content: "";
+    position: absolute;
+    background-color: #E2E2E2;
+    left: 150px;
+    bottom: 105px;
+    width: 20px;
+    height: 20px;
+    z-index: -1;
+    transform: rotate(45deg);
+    display: block;
 }
-.name{
-    width: 50%;
+.customers-item-manager{
+ display: flex;
+ justify-content: space-around;
+ align-items: center; 
+ margin-top: 40px;  
+}
+.customers-name span {
+display: block;
+text-align: left;
+font-family: open sans;
+font-weight: 700;
 }
