@@ -1,3 +1,4 @@
+@import url("../css/contact.css");
 @import url("../css/customers.css");
 @import url("../css/fonts.css");
 @import url("../css/awesome.css");
@@ -37,7 +38,9 @@
   font-family: Raleway;
 }
 .line{
-
+width: 150px;
+border-bottom: 1px solid orange;
+margin: 30px auto 30px;
 }
 .awesome-discription{
   margin: auto;
@@ -51,5 +54,8 @@ text-align: center;
   content: '';
   background-color: solid #D98943;
   height: 1px;
+  display: block;
+}
+.label{
   display: block;
 }

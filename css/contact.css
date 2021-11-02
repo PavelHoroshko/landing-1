@@ -1,0 +1,59 @@
+.contact-discription p{
+    margin: auto;
+    font-weight: 400;
+    text-align: center;
+    font-family: open sans;
+}
+button{
+    display: block;
+    margin: auto;
+    padding: 15px 200px;
+    background-color: #EC7979;
+    border: 1px solid #EC7979;
+    text-align: center;
+    margin-top: 50px;
+    transition: 0.2s;
+    color: white;
+
+}
+textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    resize: none;
+    margin-top: 10px;
+}
+textarea:focus{
+    outline: none;
+}
+label{
+    display: block;
+    margin-top: 50px;
+    position: relative;
+    color: #BDBDBD;
+    font-family: open sans;
+    font-weight: 400;
+}
+input{
+    display: block;
+    width: 570px;
+    margin-top: 10px;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #BDBDBD; 
+}
+input:focus{
+    outline: none;
+}
+.form-item{
+width: 570px;
+}
+button:hover{
+transform: scale(1.1)
+}
+.form-item-message{
+    width: 570px;
+    display: block;
+}

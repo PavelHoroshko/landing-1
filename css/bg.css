@@ -42,6 +42,10 @@ padding: 10px 100px;
 display: inline-block;
 color: white;
 font-family: open sans;
+transition: 0.2s;
+}
+.axure-link:hover{
+    transform: scale(1.1)
 }
 .axure{
 text-align: center;

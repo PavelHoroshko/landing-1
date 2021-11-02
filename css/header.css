@@ -1,6 +1,6 @@
-.section-footer{
+.header{
     padding: 50px 0;
-    background-color: #000000;
+    background-color:red;
 }
 .section-logo{
 text-align: center;
@@ -53,29 +53,34 @@ transition: 0.2s;
 }
 .fa-facebook-f:hover{
 color: blue;
-transform: scale(0.9)
+font-size: 35px;
 }
 .fa-twitter:hover{
 color: cornflowerblue;
-transform: scale(0.9)
+font-size: 35px;
 }
 .fa-linkedin:hover{
     color: cornflowerblue;
-    transform: scale(0.9)
+    font-size: 35px;
 }
 .fa-pinterest:hover{
     color: rgb(230, 0, 0);
-    transform: scale(0.9)
+    font-size: 35px;
 }
 .fa-instagram:hover{
     color: #c72020a8;
-    transform: scale(0.9)
+    font-size: 35px;
 }
 .fa-github:hover{
     color: #da8360;
-    transform: scale(0.9)
+    font-size: 35px;
 }
 .fa-rss:hover{
     color: orangered;
-    transform: scale(0.9)
+    font-size: 35px;
 }
+.media span {
+    display: block;
+    font-family: open sans;
+    font-weight: 700;
+    }

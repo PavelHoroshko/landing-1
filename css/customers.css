@@ -24,18 +24,16 @@
     line-height: 21px;
     font-weight: 400;
     padding: 35px 35px;
+    position: relative;
 }
 .customers-item-text::after{
     content: "";
     position: absolute;
-    background-color: #E2E2E2;
-    left: 150px;
-    bottom: 105px;
-    width: 20px;
-    height: 20px;
-    z-index: -1;
-    transform: rotate(45deg);
-    display: block;
+    border: 10px solid transparent;
+    border-top: 15px solid #E2E2E2;
+    top: 100%;
+    left: 47px;
+   
 }
 .customers-item-manager{
  display: flex;
