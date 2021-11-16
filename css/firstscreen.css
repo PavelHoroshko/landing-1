@@ -1,0 +1,116 @@
+.section-axit {
+background: url('../img/street.png');
+padding: 250px 0;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: relative;
+}
+.section-axit::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+.first-screen__axit {
+    font-size: 90px;
+    color: white;
+    margin-top: 200px;
+}
+.first-screen__axit::after{
+    content: "IT";
+    color: #EC7979;
+}
+.title-axit {
+    color: white;
+    margin-top: 40px;
+    font-size: 50px;
+    margin-right: 50px;
+}
+.title-axit::after{
+    content: "";
+    width: 70px;
+    height: 1px;
+    background-color: white;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.axit-discription {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 110px;
+}
+.axit {
+    margin-top: 40px;
+    }
+.axit-link{
+    border: 1px solid white;
+    display: block;
+    margin: auto;
+    padding: 10px 100px;
+    display: inline-block;
+    color: white;
+    font-family: open sans;
+    transition: 0.2s;
+    }
+    .axit-link:hover{
+        transform: scale(1.1)
+    }
+    .first-screen__wrapp {
+        display: flex;
+        justify-content: space-between;
+    }
+    .first-screen__form {
+        width: 370px;
+        border: 1px solid #EC7979;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: #fff;
+    }
+    .first-screen__form-content__item label {
+        display: block;
+        text-transform: capitalize;
+    }
+    .first-screen__form-content__item input {
+        display: block;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid grey;
+    }
+    .first-sreen__form-content {
+        padding: 20px 60px 60px;
+    }
+    .first-screen__form-content__title {
+        margin-bottom: 30px;
+        text-transform: capitalize;
+        font-size: 20px;
+        color: rgb(29, 28, 28);
+        text-align: center;
+    }
+    .first-screen__form-content__title span{
+        color: #EC7979;
+    }
+    .first-screen__form-btn {
+        width: 100%;
+        padding: 25px 0;
+        font-size: 20px;
+        text-transform: capitalize;
+        display: block;
+        background-color: #EC7979;
+        border: 0;
+        color: #fff;
+        cursor: pointer;
+        border: 1px solid transparent;
+        transition: 0.3s;
+    }
+    .first-screen__form-btn:hover {
+        background-color: #fff;
+        color: #EC7979;
+        border: 1px solid #EC7979;
+
+    }

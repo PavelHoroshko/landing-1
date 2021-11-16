@@ -1,86 +1,48 @@
-.header{
-    padding: 50px 0;
-    background-color:red;
+.header {
+max-width: 100%;
+background-color: rgb(29, 28, 28);
 }
-.section-logo{
-text-align: center;
-font-size: 35px;
-color: silver;
-margin-top: 20px;
+.header-row {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.header-logo a {
+    color: #ffffff;
+    font-size: 50px;
+}
+.header-logo a::after{
+    content: "IT";
+    color: #EC7979;
+}
+nav {
+display: block;
+}
+.menu-list {
+display: flex;
+height: 100%;
+}
+.menu-list__item {
+padding: 30px 30px;
+}
+.menu-list__item-features {
+padding: 30px 30px;
+background-color: #EC7979;
+}
+.menu-list__item:first-child {
+    margin-left: 0;
+}
+.menu-list__link-features {
+    color: white;
+    font-family: open sans;
+    font-weight: 400;
+    }
+.menu-list__link {
+color: white;
+font-family: open sans;
+font-weight: 400;
+}
+.menu-list__item:hover {
+background-color: #EC7979;
 transition: 0.2s;
 }
-.fa-facebook-f{
-    margin: 0 35px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-.fa-twitter{
-    margin: 0 35px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-.fa-linkedin{
-    margin: 0 35px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-.fa-pinterest{
-    margin: 0 35px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-.fa-instagram{
-    margin: 0 35px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-.fa-github{
-    margin: 0 35px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-.fa-rss{
-    margin: 0 35px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-.text-logo{
-    color: silver;
-    font-family: open sans;
-    font-weight: 100;
-    text-align: center;
-    margin-top: 40px;
-}
-.fa-facebook-f:hover{
-color: blue;
-font-size: 35px;
-}
-.fa-twitter:hover{
-color: cornflowerblue;
-font-size: 35px;
-}
-.fa-linkedin:hover{
-    color: cornflowerblue;
-    font-size: 35px;
-}
-.fa-pinterest:hover{
-    color: rgb(230, 0, 0);
-    font-size: 35px;
-}
-.fa-instagram:hover{
-    color: #c72020a8;
-    font-size: 35px;
-}
-.fa-github:hover{
-    color: #da8360;
-    font-size: 35px;
-}
-.fa-rss:hover{
-    color: orangered;
-    font-size: 35px;
-}
-.media span {
-    display: block;
-    font-family: open sans;
-    font-weight: 700;
-    }

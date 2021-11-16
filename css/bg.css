@@ -26,6 +26,16 @@ width: 450px;
 font-size: 36px;
 font-weight: 400; 
 }
+.title-axure::after {
+    content: "";
+  margin: auto;
+  width: 70px;
+  height: 1px;
+  background-color: orangered;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
 .axure-discription p{
 color: white;
 text-align: center;

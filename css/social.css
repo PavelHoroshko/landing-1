@@ -1,0 +1,71 @@
+.section-social {
+margin: auto;
+padding: 30px 0;
+background-color: #F5F5F5; 
+}
+.social-row {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.social-discription p {
+font-family: Raleway;
+font-size: 700;
+}
+.social-item {
+display: flex;
+align-items: center;
+}
+.social-item__list {
+display: flex;
+}
+.title-social {
+margin-bottom: 30px;
+text-transform: capitalize;
+font-family: open sans;
+font-weight: 700;
+}
+.social-item__list {
+text-align: center;
+font-size: 35px;
+transition: 0.2s;
+}
+.social-item__link {
+color: #CCCCCC;
+font-size: 40px;
+}
+.fa-facebook-f{
+margin: 0 35px;
+cursor: pointer;
+transition: 0.2s;
+}
+.fa-twitter{
+margin: 0 35px;
+cursor: pointer;
+transition: 0.2s;
+}
+.fa-linkedin{
+margin: 0 35px;
+cursor: pointer;
+transition: 0.2s;
+}
+.fa-pinterest{
+margin: 0 35px;
+cursor: pointer;
+transition: 0.2s;
+}
+.fa-instagram{
+margin: 0 35px;
+cursor: pointer;
+transition: 0.2s;
+}
+.fa-github{
+margin: 0 35px;
+cursor: pointer;
+transition: 0.2s;
+}
+.fa-rss{
+margin: 0 35px;
+cursor: pointer;
+transition: 0.2s;
+}

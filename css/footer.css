@@ -2,12 +2,14 @@
     padding: 50px 0;
     background-color: #000000;
 }
-.section-logo{
-text-align: center;
+.section-logo {
+display: flex;
 font-size: 35px;
-color: silver;
-margin-top: 20px;
 transition: 0.2s;
+justify-content: space-around;
+}
+.logo-item__link {
+    color: gray;
 }
 .fa-facebook-f{
     margin: 0 35px;

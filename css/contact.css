@@ -48,12 +48,13 @@ input:focus{
     outline: none;
 }
 .form-item{
-width: 570px;
+    width: 570px;
+
 }
 button:hover{
-transform: scale(1.1)
+
 }
 .form-item-message{
-    width: 570px;
-    display: block;
+    width: 50%;
 }
+

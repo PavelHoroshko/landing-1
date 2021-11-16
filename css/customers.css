@@ -47,3 +47,19 @@ text-align: left;
 font-family: open sans;
 font-weight: 700;
 }
+.customers-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customers-img img {
+    width: 100%;
+}
+.customers-info__name{
+    display: block;
+    text-align: right;
+}

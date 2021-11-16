@@ -1,3 +1,6 @@
+@import url("../css/header.css");
+@import url("../css/social.css");
+@import url("../css/firstscreen.css");
 @import url("../css/contact.css");
 @import url("../css/customers.css");
 @import url("../css/fonts.css");
@@ -37,10 +40,15 @@
   text-align: center;
   font-family: Raleway;
 }
-.line{
-width: 150px;
-border-bottom: 1px solid orange;
-margin: 30px auto 30px;
+.title::after {
+  content: "";
+  margin: auto;
+  width: 70px;
+  height: 1px;
+  background-color: orangered;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 .awesome-discription{
   margin: auto;
